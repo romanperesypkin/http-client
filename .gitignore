@@ -1,0 +1,88 @@
+# Terraform service files
+.terraform/
+terraform.tfstate*
+plan.cache
+
+# Kubeconfig
+kubeconfig_*
+
+# Mypy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Crash log files
+crash.log
+
+# Byte-compiled / optimized / DLL files
+pycache/
+__pycache__
+*$py.class
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pyenv
+.python-version
+
+# IDEA
+.idea/
+
+# IntelliJ IDEA's module files
+*.iml
+
+# virtualenv
+.venv
+venv*/
+ENV/
+
+# Opened .docx files locks
+.~lock.*
+
+# MacOS files
+*.DS_Store
+
+# Project configuration
+*.sublime*
+.vscode
+*.code-workspace
+*.devcontainer
+# Project extensions
+logs/
+*.bak
+
+# Credentials
+*(credentials|secret)
+
+# Egg-info
+*egg-info/
+
+# Build
+*build/
+*builds/
+
+# Pytest files
+**/.coverage
+.reports/
+
+# ML models
+**/settings.json
+data/
+results/
+run.log
+dist/
+*.cbm
+!*.cbm.dvc
+catboost_info/
+
+# Helm chart dependencies lock
+Chart.lock
+
+# Python packages
+/**/dist/*
+node_modules/
+
+# VS Code SQL Tools
+*.session.sql
